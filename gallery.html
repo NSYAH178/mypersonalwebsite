@@ -1,0 +1,120 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitioanl//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmins="http:www.w3.org/1999/xhtml">
+<html>
+<title>Gallery</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  margin: 0;
+  font-family: Playlist Script;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: ;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #fbeab4;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #fbeab4;
+  color: white;
+}
+</style>
+</head>
+<body bgcolor=" #fbeab4">
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="aboutme.html">About Me</a>
+  <a href="education.html">Education</a>
+  <a href="family.html">Family</a>
+  <a href="friends.html">Friends</a>
+  <a href="memories.html">Memories</a>
+  <a class="active" href="gallery.html">Gallery</a>
+</div>
+<img src="gif/bannergallery.gif" height="100%" width="100%">
+<br>
+<table align="center">
+<table width="100%">
+<tr>
+<td bgcolor="#D3D3D3"><p align="center"><p align="center">This websites for IMS456</p></td>
+</td>
+</tr>
+<br>
+<embed src="audio/background.mp3" hidden="true" autoplay="true></embed>
+<br>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="jpg/gallery.jpg" style="width:70%">
+  <img class="mySlides" src="jpg/gallery1.jpg" style="width:70%">
+<img class="mySlides" src="jpg/gallery2.jpg" style="width:70%">
+  <img class="mySlides" src="jpg/gallery3.jpg" style="width:70%">
+<img class="mySlides" src="jpg/gallery4.jpg" style="width:70%">
+  <img class="mySlides" src="jpg/gallery5.jpg" style="width:70%">
+<img class="mySlides" src="jpg/gallery6.jpg" style="width:70%">
+  <img class="mySlides" src="jpg/gallery7.jpg" style="width:70%">
+<img class="mySlides" src="jpg/gallery8.jpg" style="width:70%">
+  <img class="mySlides" src="jpg/gallery9.jpg" style="width:70%">
+<img class="mySlides" src="jpg/gallery10.jpg" style="width:70%">
+  <img class="mySlides" src="jpg/gallery11.jpg" style="width:70%">
+  <img class="mySlides" src="jpg/gallery12.jpg" style="width:70%">
+  <img class="mySlides" src="jpg/gallery13.jpg" style="width:70%">
+<img class="mySlides" src="jpg/gallery14.jpg" style="width:70%">
+  <img class="mySlides" src="jpg/gallery15.jpg" style="width:70%">
+<img class="mySlides" src="jpg/gallery16.jpg" style="width:70%">
+  <img class="mySlides" src="jpg/gallery17.jpg" style="width:70%">
+<img class="mySlides" src="jpg/gallery18.jpg" style="width:70%">
+  <img class="mySlides" src="jpg/gallery19.jpg" style="width:70%">
+<img class="mySlides" src="jpg/gallery20.jpg" style="width:70%">
+  <img class="mySlides" src="jpg/gallery21.jpg" style="width:70%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</body>
+</html>
